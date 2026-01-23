@@ -12,6 +12,7 @@
   background-color: #ffffff; /* Blanco limpio */
   color: #111111;             /* Texto principal oscuro */
   line-height: 1.8;
+  background-image: radial-gradient(#b0110c 30%, #000 100%);
 }
 
 /* Título principal */
