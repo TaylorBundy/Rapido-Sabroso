@@ -1,34 +1,36 @@
 /* ===============================
-   Estilos Historia Araucarias
-   Rápido y Sabroso
+   Estilos historia Araucarias
+   Integrados al estilo de Rápido y Sabroso
    =============================== */
 
+/* Contenedor principal */
 .about-section {
   max-width: 900px;
   margin: 0 auto;
-  padding: 40px 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #222;
-  line-height: 1.7;
-  background-color: #ffffff;
+  padding: 45px 25px;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* Blanco limpio */
+  color: #111111;             /* Texto principal oscuro */
+  line-height: 1.8;
 }
 
 /* Título principal */
 .about-section h1 {
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   text-align: center;
-  margin-bottom: 30px;
-  color: #111;
-  border-bottom: 2px solid #e5e5e5;
-  padding-bottom: 15px;
+  margin-bottom: 28px;
+  font-weight: bold;
+  color: #111111;             /* Texto bien visible */
+  border-bottom: 2px solid #e2e2e2;
+  padding-bottom: 14px;
 }
 
 /* Subtítulos */
 .about-section h2 {
-  font-size: 1.4rem;
-  margin-top: 35px;
-  margin-bottom: 15px;
-  color: #333;
+  font-size: 1.5rem;
+  margin-top: 34px;
+  margin-bottom: 14px;
+  color: #222222; /* Ligeramente más suave que el título */
 }
 
 /* Párrafos */
@@ -36,44 +38,42 @@
   font-size: 1rem;
   margin-bottom: 18px;
   text-align: justify;
+  color: #222222; /* Lectura cómoda */
 }
 
-/* Negritas */
+/* Texto en negrita */
 .about-section strong {
-  color: #000;
   font-weight: bold;
+  color: #000000; /* Negro puro para destacar */
 }
 
-/* Citas o énfasis cultural */
+/* Énfasis */
 .about-section em {
-  color: #444;
   font-style: italic;
+  color: #333333;
 }
 
-/* Separación visual opcional */
+/* Línea decorativa bajo subtítulos */
 .about-section h2::after {
   content: "";
   display: block;
-  width: 60px;
+  width: 50px;
   height: 3px;
-  background-color: #000;
+  background-color: #000000;
   margin-top: 6px;
 }
 
-/* Responsive */
+/* Ajustes responsivos para móviles */
 @media (max-width: 768px) {
   .about-section {
     padding: 30px 15px;
   }
-
   .about-section h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
-
   .about-section h2 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
-
   .about-section p {
     font-size: 0.95rem;
   }
