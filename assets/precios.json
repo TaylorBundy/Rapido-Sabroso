@@ -1,16 +1,16 @@
 {
-	"precios": {
-		"vacuna": "18000",
-		"merluza": "15000",
-		"pollo": "12000",
-		"bondiola": "15000",
-		"pancho": "6000",
-		"fritas": "6000",
-		"gaseosa": "5000",
-		"gaseosa15": "10000",
-		"saborizada": "4000",
-		"agua": "3500",
-		"cerveza": "5000",
-		"hopkin": "9500"
-	}
+    "precios": {
+        "vacuna": "20000",
+        "merluza": "15000",
+        "pollo": "12000",
+        "bondiola": "15000",
+        "pancho": "6000",
+        "fritas": "6000",
+        "gaseosa": "5000",
+        "gaseosa15": "10000",
+        "saborizada": "4000",
+        "agua": "3500",
+        "cerveza": "5000",
+        "hopkin": "9500"
+    }
 }
