@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: rapido-y-sabroso-editor
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: EDITOR_USER
+        sync: false
+      - key: EDITOR_PASSWORD
+        sync: false
+      - key: EDITOR_SECRET_KEY
+        sync: false
+      - key: GITHUB_TOKEN
+        sync: false
+      - key: GITHUB_OWNER
+        sync: false
+      - key: GITHUB_REPO
+        sync: false
+      - key: GITHUB_BRANCH
+        value: main
+      - key: FRONTEND_ORIGINS
+        sync: false
