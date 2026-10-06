@@ -367,6 +367,7 @@ btnCerrarSesion.addEventListener("click", () => {
   editorSection.classList.add("oculto");
 
   loginSection.classList.remove("oculto");
+  document.querySelector("header").classList.remove("oculto");
 
   loginForm.reset();
 });
