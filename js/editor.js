@@ -1,6 +1,6 @@
 "use strict";
 
-const API_BASE = window.API_BASE || "https://TU-BACKEND.onrender.com";
+const API_BASE = window.API_BASE || "https://rapido-sabroso.onrender.com";
 
 const loginSection = document.getElementById("loginSection");
 const editorSection = document.getElementById("editorSection");
