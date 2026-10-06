@@ -13,6 +13,42 @@ const buscarProducto = document.getElementById("buscarProducto");
 const filtroTipo = document.getElementById("filtroTipo");
 
 const btnCerrarSesion = document.getElementById("btnCerrarSesion");
+const plataforma = navigator.userAgent;
+const menuToggle = document.querySelector(".menu-toggle");
+const menu = document.querySelector(".menu");
+const hahaha = document.getElementById("jaja");
+const todosss = document.querySelectorAll(
+  "div:not(.menu-container), header p, .menu-section",
+);
+let tiene = "";
+//removemos la clase active
+todosss.forEach((element) => {
+  //le añadimos el evento "onClick"  a cada elemento
+  if (plataforma.includes("Win")) {
+    element.addEventListener("click", () => {
+      tiene = menu.classList.value;
+      if (tiene === "menu active") {
+        //console.log(tiene);
+        menu.classList.remove("active");
+      } else {
+        //console.log('no');
+      }
+    });
+  }
+});
+//si es windows definimos la funcion click
+if (plataforma.includes("Win")) {
+  //document.addEventListener('DOMContentLoaded', () => {
+  menuToggle.addEventListener("click", () => {
+    tiene = menu.classList.value;
+    if (tiene === "menu active") {
+      menu.classList.remove("active");
+    } else {
+      menu.classList.add("active");
+    }
+  });
+  //});
+}
 
 let productos = [];
 let precios = {};
@@ -84,6 +120,7 @@ loginForm.addEventListener("submit", async (event) => {
 
 function mostrarEditor() {
   loginSection.classList.add("oculto");
+  document.querySelector("header").classList.add("oculto");
 
   editorSection.classList.remove("oculto");
 }
