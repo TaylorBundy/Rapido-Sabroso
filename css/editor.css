@@ -285,6 +285,7 @@ button:hover {
   color: white;
 
   cursor: pointer;
+  z-index: 10;
 }
 
 .editor-content {
