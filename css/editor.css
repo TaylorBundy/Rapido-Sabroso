@@ -369,7 +369,22 @@ button:hover {
   /* .editor-header {
     align-items: flex-start;
   } */
-  .logo {
+  #jaja {
+    width: 90%;
+  }
+  #jaja .menu-toggle {
+    font-size: 20px;
+  }
+  #jaja .menu-container {
+    padding: 0 1rem;
+    bottom: unset;
+    height: unset;
+    position: unset;
+  }
+  #jaja .menu a {
+    font-size: 10px;
+  }
+  .editor-header .logo {
     width: unset;
     height: unset;
     right: 0;
@@ -382,7 +397,7 @@ button:hover {
     z-index: 10;
   }
 
-  .logo img {
+  .editor-header .logo img {
     position: relative;
     margin: auto;
     /* margin: 0 0 auto auto; */
@@ -402,6 +417,24 @@ button:hover {
     flex-direction: column;
 
     gap: 10px;
+  }
+  .menu.active {
+    width: 70px;
+    opacity: 0.8;
+    right: 20px;
+    display: flex;
+    /* right: 2rem; */
+  }
+  .menu a {
+    font-size: 14px;
+    padding: 5px;
+    height: 32px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    /* height: 40px; */
+    justify-content: center;
+    align-items: center;
   }
 
   .acciones {
