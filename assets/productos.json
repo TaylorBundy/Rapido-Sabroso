@@ -4,7 +4,7 @@
             "id": "Vacuna",
             "tipo": "comida",
             "titulo": "Sanguche Vacuna",
-            "descripcion": "Milanesa de carne vacuna, Jamón, Queso, Lechuga, Tomate y Huevo.",
+            "descripcion": "Milanesa de carne vacuna, Jamón, Queso, Lechuga, Tomate y Huevo. (Aderezos a Elección)!",
             "carpeta": "Vacuna",
             "imagenes": {
                 "principal": "vacuna-completa.avif",
