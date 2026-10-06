@@ -48,6 +48,16 @@ if (plataforma.includes("Win")) {
     }
   });
   //});
+} else if (plataforma.includes("Android")) {
+  menu.classList.add("active");
+  menuToggle.addEventListener("click", () => {
+    tiene = menu.classList.value;
+    if (tiene === "menu active") {
+      menu.classList.remove("active");
+    } else {
+      menu.classList.add("active");
+    }
+  });
 }
 
 let productos = [];
@@ -369,7 +379,8 @@ btnCerrarSesion.addEventListener("click", () => {
   loginSection.classList.remove("oculto");
   document.querySelector("header").classList.remove("oculto");
 
-  loginForm.reset();
+  //loginForm.reset();
+  window.location.href = "index.html";
 });
 
 /* =====================================================
